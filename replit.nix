@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.zulu
+    pkgs.wget
     pkgs.ffmpeg.bin
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
