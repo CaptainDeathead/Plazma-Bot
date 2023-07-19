@@ -315,4 +315,6 @@ class Menu(discord.ui.View):
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
 keep_alive()
-client.run('MTAwMjE4NjEwMDE3OTIyNjYyNA.Gq7onl.ZlqnGHfAU8nH7A-oD7O_BjcRDojSF_Xf6x_yaE')
+with open('pyversion.txt') as f:
+    t = f.read()
+client.run(t)
